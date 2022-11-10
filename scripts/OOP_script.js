@@ -11,6 +11,13 @@ function sum_of_salary(salary) { //the function of counting salaries of the work
     return sum;
 }
 
+function double_nums(menu) { //the function can double price of menu
+    for(let key in menu) {
+        if(typeof(menu[key]) == 'number')
+            menu[key] *= 2;
+    }
+}
+
 alert(user.name);
 user.name = "Pete";
 alert(user.name);
@@ -24,3 +31,10 @@ user.name = "Artem";
 alert(isEmpty(user));
 
 alert(sum_of_salary(salaries));
+
+double_nums(menu);
+alert(`${menu.title}:`);
+for(let key in menu) {
+    if(key != 'title')
+     alert(`${key}: ${menu[key]}`);
+}

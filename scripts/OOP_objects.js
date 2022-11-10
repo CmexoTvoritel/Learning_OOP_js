@@ -13,3 +13,10 @@ let salaries = {
     Dima: 350,
     Evgeniy: 275,
 }
+
+let menu = {
+    fish: 300,
+    meat: 200,
+    ice_cream: 50,
+    title: "menu of restaurant",
+}
