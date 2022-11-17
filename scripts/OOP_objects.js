@@ -60,3 +60,5 @@ let ladder = {
         return this;
     },
 };
+
+let user_2 = new User("Jack");

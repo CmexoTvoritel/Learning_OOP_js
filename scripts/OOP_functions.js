@@ -24,3 +24,8 @@ function marry(man, woman) { //marry function
 
     return {father : man, mother : woman,};
 }
+
+function User(name) {
+    this.name = name;
+    this.isAdmin = false;
+}
