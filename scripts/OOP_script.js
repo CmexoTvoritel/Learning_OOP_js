@@ -36,3 +36,5 @@ user.sayHi();
 calculator.read();
 alert(calculator.sum());
 alert(calculator.mul());
+
+ladder.up().up().down().showStep().down().showStep();

@@ -44,3 +44,19 @@ let calculator = {
         this.b = prompt("b?", 0);
     }
 };
+
+let ladder = {
+    step: 0,
+    up() {
+        this.step++;
+        return this;
+    },
+    down() {
+        this.step--;
+        return this;
+    },
+    showStep() {
+        alert(this.step);
+        return this;
+    },
+};
