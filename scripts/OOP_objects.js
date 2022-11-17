@@ -3,6 +3,9 @@
 let user = {
     name: "John",
     surname: "Smith",
+    sayHi() {
+        alert(`Hello, my name - ${this.name}`);
+    }
 }
 
 let salaries = {
@@ -20,3 +23,12 @@ let menu = {
     ice_cream: 50,
     title: "menu of restaurant",
 }
+
+let permission_1 = {
+    canView: true,
+};
+
+let permission_2 = {
+    canChange: true,
+};
+

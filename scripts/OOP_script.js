@@ -20,3 +20,15 @@ for(let key in menu) {
     if(key != 'title')
      alert(`${key}: ${menu[key]}`);
 }
+
+Object.assign(user, permission_1, permission_2);
+let clone = Object.assign({}, user);
+alert(clone.name);
+
+
+let family = marry( 
+    {name: "Artem"},
+    {name: "Kate"},
+);
+alert(`father: ${family.father.name}, mother: ${family.mother.name}`);
+user.sayHi();

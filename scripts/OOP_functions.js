@@ -17,3 +17,10 @@ function double_nums(menu) { //the function can double price of menu
             menu[key] *= 2;
     }
 }
+
+function marry(man, woman) { //marry function
+    woman.husband = man;
+    man.wife = woman;
+
+    return {father : man, mother : woman,};
+}
