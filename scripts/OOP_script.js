@@ -32,3 +32,7 @@ let family = marry(
 );
 alert(`father: ${family.father.name}, mother: ${family.mother.name}`);
 user.sayHi();
+
+calculator.read();
+alert(calculator.sum());
+alert(calculator.mul());

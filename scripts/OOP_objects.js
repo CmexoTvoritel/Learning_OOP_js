@@ -32,3 +32,15 @@ let permission_2 = {
     canChange: true,
 };
 
+let calculator = {
+    sum() {
+        return Number(this.a) + Number(this.b);
+    },
+    mul() {
+        return Number(this.a) * Number(this.b);
+    },
+    read(){
+        this.a = prompt("a?", 0);
+        this.b = prompt("b?", 0);
+    }
+};
