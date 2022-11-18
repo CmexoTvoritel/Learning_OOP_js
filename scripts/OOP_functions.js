@@ -29,3 +29,11 @@ function User(name) {
     this.name = name;
     this.isAdmin = false;
 }
+
+function Accumulator(value) {
+    this.value = value;
+    this.read = function() {
+        let num = prompt("Enter a number: ", 10);
+        this.value += Number(num);
+    }
+};

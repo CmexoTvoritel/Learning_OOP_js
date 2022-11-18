@@ -40,3 +40,7 @@ alert(calculator.mul());
 ladder.up().up().down().showStep().down().showStep();
 
 alert(user_2.name);
+
+accumulator.read();
+accumulator.read();
+alert(accumulator.value);

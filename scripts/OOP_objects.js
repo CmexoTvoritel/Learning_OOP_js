@@ -62,3 +62,4 @@ let ladder = {
 };
 
 let user_2 = new User("Jack");
+let accumulator = new Accumulator(1);
